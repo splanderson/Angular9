@@ -1,0 +1,26 @@
+body {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+  color: gray;
+}
+
+button {
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+  background: gray;
+  color: #FFF !important;
+  padding: 2px 5px !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  margin-left: 2px;
+  font-size: 24px;
+
+}
+
+button:hover {
+background: #666 !important;
+}

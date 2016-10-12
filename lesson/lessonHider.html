@@ -1,1 +1,5 @@
-<li>{{lesson}}</li>
+<div>
+  <input type="checkbox" ng-checked="strikeThru"></input>
+  <li>{{lesson}}</li>
+  <button ng-click="dayAlert({lesson: lesson, day: lessonDay})">Which Day?</button>
+</div>
