@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="directivePractice">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson Hider</title>
+  </head>
+  <body ng-controller="lessonController">
+    <h2>Lessons</h2>
+    <ul>
+      <lesson-hider ng-repeat="lesson in lessons" lesson="lesson"></lesson-hider>
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+  	<script src="app.js"></script>
+  	<script src="lesson/lessonCtrl.js"></script>
+    <script src="lesson/lessonService.js"></script>
+    <script src="lesson/lessonHider.js"></script>
+  </body>
+</html>
